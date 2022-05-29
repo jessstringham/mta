@@ -1,2 +1,3 @@
 # mta
-another mta script
+
+An other script for pulling MTA times.
