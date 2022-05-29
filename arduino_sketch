@@ -56,8 +56,8 @@ void loop() {
   } else {
       if (message == 'R') {
           pixels.setPixelColor(getOffset(pixelToUpdate), pixels.Color(BRIGHTNESS, 0, 0));
-      } else if (message == 'Y') {
-          pixels.setPixelColor(getOffset(pixelToUpdate), pixels.Color(BRIGHTNESS/2, BRIGHTNESS/2, 0));
+      } else if (message == 'B') {
+          pixels.setPixelColor(getOffset(pixelToUpdate), pixels.Color(0, 0, BRIGHTNESS));
       } else if (message == 'G') {
           pixels.setPixelColor(getOffset(pixelToUpdate), pixels.Color(0, BRIGHTNESS, 0));
       } else if (message == 'g') {
